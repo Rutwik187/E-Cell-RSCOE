@@ -1,0 +1,191 @@
+/* color: #00ADB5; */
+@media screen and (min-width: 721px) {
+  #BlogsSlider {
+    /* border: 1px solid red; */
+    position: absolute;
+    bottom: 6vw;
+    left: 4vw;
+    font-family: 'Caladea', serif;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    transition: 1s;
+  }
+
+  .BlogsCard {
+    background: rgb(238, 238, 238);
+    width: 22vw;
+    height: 16vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-radius: 0.6vw;
+    margin: 0vw 1.5vw;
+    /* box-shadow: 0.1vw 0vw 1vw rgba(0, 0, 0, 0.5); */
+    box-shadow: 0vw 0vw 0.9vw 0.2vw rgba(0, 0, 0, 0.05);
+  }
+
+  .BlogsCard div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 19vw;
+    margin: 1.5vw auto 0.5vw auto;
+    /* border: 1px solid red; */
+  }
+
+  .BlogsCard div img {
+    width: 4vw;
+  }
+
+  .BlogsCard div h3 {
+    /* border: 1px solid yellow; */
+    font-family: 'Hind Vadodara';
+    font-size: 1.2vw;
+  }
+
+  .BlogsCard div p {
+    color: rgba(51, 27, 59, 0.66);
+    font-size: 1.1vw;
+    font-family: 'Hind Vadodara';
+    width: 100%;
+    margin-top: 0.5vw;
+    text-align: justify;
+  }
+
+  .BlogsCard a {
+    color: black;
+    /* position: absolute;
+    bottom: 1vw;
+    right: 1.5vw; */
+    border: 0.1vw solid black;
+    border-radius: 4vw;
+    font-family: 'Caladea', serif;
+    font-size: 1vw;
+    padding: 0.2vw 1.4vw;
+    text-decoration: none;
+    margin: 0.5vw 1.5vw 1.4vw 0vw;
+    transition: 0.2s;
+  }
+
+  .BlogsCard a:hover {
+    background: black;
+    color: white;
+  }
+
+  .BlogsCard a:active {
+    filter: blur(0.1vw);
+  }
+
+  .BlogsSliderBtnOut {
+    position: absolute;
+    top: 1.5vw;
+    right: 1.5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 6vw;
+  }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 720px) {
+  #BlogsSlider {
+    /* border: 1px solid red; */
+    position: absolute;
+    bottom: 6vw;
+    left: 4vw;
+    font-family: 'Caladea', serif;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    transition: 1s;
+  }
+
+  .BlogsCard {
+    background: rgb(238, 238, 238);
+    width: 22vw;
+    height: 16vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-radius: 0.6vw;
+    margin: 0vw 1.5vw;
+    /* box-shadow: 0.1vw 0vw 1vw rgba(0, 0, 0, 0.5); */
+    box-shadow: 0vw 0vw 0.9vw 0.2vw rgba(0, 0, 0, 0.05);
+  }
+
+  .BlogsCard div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 19vw;
+    margin: 1.5vw auto 0.5vw auto;
+    /* border: 1px solid red; */
+  }
+
+  .BlogsCard div img {
+    width: 4vw;
+  }
+
+  .BlogsCard div h3 {
+    /* border: 1px solid yellow; */
+    font-family: 'Hind Vadodara';
+    font-size: 1.2vw;
+  }
+
+  .BlogsCard div p {
+    color: rgba(51, 27, 59, 0.66);
+    font-size: 1.1vw;
+    font-family: 'Hind Vadodara';
+    width: 100%;
+    margin-top: 0.5vw;
+    text-align: justify;
+  }
+
+  .BlogsCard a {
+    color: black;
+    /* position: absolute;
+    bottom: 1vw;
+    right: 1.5vw; */
+    border: 0.1vw solid black;
+    border-radius: 4vw;
+    font-family: 'Caladea', serif;
+    font-size: 1vw;
+    padding: 0.2vw 1.4vw;
+    text-decoration: none;
+    margin: 0.5vw 1.5vw 1.4vw 0vw;
+    transition: 0.2s;
+  }
+
+  .BlogsCard a:hover {
+    background: black;
+    color: white;
+  }
+
+  .BlogsCard a:active {
+    filter: blur(0.1vw);
+  }
+
+  .BlogsSliderBtnOut {
+    position: absolute;
+    top: 1.5vw;
+    right: 1.5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 6vw;
+  }
+}

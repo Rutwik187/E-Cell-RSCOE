@@ -1,0 +1,138 @@
+@media screen and (min-width: 721px) {
+  #OurTeam {
+    /* border: 1px solid red; */
+    /* background: rgb(34, 40, 49); */
+  }
+
+  .TeamSectionOut {
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-top: 3vw;
+  }
+
+  .TeamPageHeadingOut {
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .SectionHeading {
+    color: rgb(238, 238, 238);
+    font-size: 3.5vw;
+    font-weight: normal;
+    font-family: 'Caladea', serif;
+  }
+
+  .WordUnderline {
+    display: block;
+    width: 5vw;
+    height: 0.5vw;
+    background: rgb(0, 173, 181);
+  }
+
+  .TeamCardsOut {
+    /* border: 1px solid green; */
+    width: 92vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .OurTeamDotsOut {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vw;
+    margin-bottom: 3vw;
+  }
+
+  .OurTeamDot {
+    width: 2.2vw;
+    height: 2.2vw;
+    border-radius: 50%;
+    background: white;
+    margin: 0vw 1.4vw;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 720px) {
+  #OurTeam {
+    /* border: 1px solid red; */
+    /* background: rgb(34, 40, 49); */
+  }
+
+  .TeamSectionOut {
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-top: 3vw;
+  }
+
+  .TeamPageHeadingOut {
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .SectionHeading {
+    color: rgb(238, 238, 238);
+    font-size: 3.5vw;
+    font-weight: normal;
+    font-family: 'Caladea', serif;
+  }
+
+  .WordUnderline {
+    display: block;
+    width: 5vw;
+    height: 0.5vw;
+    background: rgb(0, 173, 181);
+  }
+
+  .TeamCardsOut {
+    /* border: 1px solid green; */
+    width: 92vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .OurTeamDotsOut {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vw;
+    margin-bottom: 3vw;
+  }
+
+  .OurTeamDot {
+    width: 2.2vw;
+    height: 2.2vw;
+    border-radius: 50%;
+    background: white;
+    margin: 0vw 1.4vw;
+  }
+}

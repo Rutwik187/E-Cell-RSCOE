@@ -1,0 +1,243 @@
+/* color: #00ADB5; */
+@media screen and (min-width: 721px) {
+  .Navbar {
+    /* margin-bottom: 20vw; */
+    /* border-bottom: 1px solid white; */
+    width: 100%;
+    height: 7vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0vw 2vw;
+    position: relative;
+
+    /* position: sticky; */
+    top: 0vw;
+    background: rgb(34, 40, 49);
+
+    /* position: fixed; */
+    /* top: 0vw; */
+    /* background: transparent; */
+    z-index: 4;
+  }
+
+  .LeftNav {
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35vw;
+  }
+
+  .LeftNav div {
+    /* border: 1px solid pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5vw 0vw;
+    /* border: none; */
+    /* border-bottom: 0.1vw solid #00ADB5; */
+  }
+
+  .LeftNav img {
+    height: 1.4vw;
+    margin-right: 0.5vw;
+  }
+
+  .NavLinks {
+    text-decoration: none;
+    font-size: 1.5vw;
+    font-family: "Caladea", serif;
+    transition: 0.2s;
+    /* font-weight: 500; */
+  }
+
+  .NavLinks:hover {
+    opacity: 0.8;
+  }
+
+  .CenterNav {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .CenterNav img {
+    width: 4.4vw;
+    margin-right: 0.5vw;
+    /* filter: drop-shadow(0.2vw 0vw 0.7vw white); */
+  }
+
+  .CenterNavText {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5vw;
+    font-family: arial, sans-serif;
+    font-weight: 400;
+  }
+
+  .RightNav {
+    /* border: 1px solid green; */
+    /* background: white; */
+    width: 35vw;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+
+  .RightNavLink {
+    height: 3vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.2vw solid black;
+    border-radius: 1.8vw 1.2vw 1.8vw 1.2vw;
+    margin-left: 0.5vw;
+    transition: 0.2s;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(214deg)
+      brightness(101%) contrast(104%);
+  }
+
+  .RightNavLink:hover {
+    /* filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(214deg) brightness(101%) contrast(104%); */
+    filter: none;
+    background: white;
+    border: 0.2vw solid white;
+  }
+
+  .RightNavLink img {
+    height: 100%;
+    width: 100%;
+    padding: 0.6vw;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  /* .Navbar {
+    width: 100%;
+    height: 20vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0vw 4vw;
+    position: sticky;
+    top: 0px;
+    background: #141C26;
+    z-index: 4;
+  } */
+
+  .Navbar {
+    /* margin-bottom: 20vw; */
+    /* border-bottom: 1px solid white; */
+    width: 100%;
+    height: 7vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0vw 2vw;
+    position: relative;
+
+    position: sticky;
+    top: 0vw;
+    background: rgb(34, 40, 49);
+
+    /* position: fixed; */
+    /* top: 0vw; */
+    /* background: transparent; */
+    z-index: 4;
+  }
+
+  .LeftNav {
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35vw;
+  }
+
+  .LeftNav div {
+    /* border: 1px solid pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5vw 0vw;
+    /* border: none; */
+    /* border-bottom: 0.1vw solid #00ADB5; */
+  }
+
+  .LeftNav img {
+    height: 1.4vw;
+    margin-right: 0.5vw;
+  }
+
+  .NavLinks {
+    text-decoration: none;
+    font-size: 1.5vw;
+    font-family: "Caladea", serif;
+    transition: 0.2s;
+    /* font-weight: 500; */
+  }
+
+  .NavLinks:hover {
+    opacity: 0.8;
+  }
+
+  .CenterNav {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .CenterNav img {
+    width: 4.4vw;
+    margin-right: 0.5vw;
+    /* filter: drop-shadow(0.2vw 0vw 0.7vw white); */
+  }
+
+  .CenterNavText {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5vw;
+    font-family: arial, sans-serif;
+    font-weight: 400;
+  }
+
+  .RightNav {
+    /* border: 1px solid green; */
+    /* background: white; */
+    width: 35vw;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+
+  .RightNavLink {
+    height: 3vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.2vw solid black;
+    border-radius: 1.8vw 1.2vw 1.8vw 1.2vw;
+    margin-left: 0.5vw;
+    transition: 0.2s;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(214deg)
+      brightness(101%) contrast(104%);
+  }
+
+  .RightNavLink:hover {
+    /* filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(214deg) brightness(101%) contrast(104%); */
+    filter: none;
+    background: white;
+    border: 0.2vw solid white;
+  }
+
+  .RightNavLink img {
+    height: 100%;
+    width: 100%;
+    padding: 0.6vw;
+  }
+}

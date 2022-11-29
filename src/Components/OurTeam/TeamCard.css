@@ -1,0 +1,139 @@
+@media screen and (min-width: 721px) {
+  .TeamCard {
+    background: #2F343D;
+    width: 27vw;
+    height: 33vw;
+    border: 0.2vw solid transparent;
+    margin-top: 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5vw;
+    padding: 1vw;
+  }
+
+
+  .CardImgOut {
+    width: 15vw;
+    height: 15vw;
+    position: relative;
+    /* margin-top: 1vw; */
+  }
+
+  .ImgBorder {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  .CardImgOut img {
+    width: 13.5vw;
+    height: 13.5vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  .TeamCard h1 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 2.1vw;
+    font-weight: bold;
+    margin-top: 2vw;
+  }
+
+  .TeamCard h2 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 1.2vw;
+    font-weight: normal;
+    margin-top: 1vw;
+  }
+
+  .TeamCard p {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 1.2vw;
+    font-weight: normal;
+    margin-top: 1vw;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 720px) {
+  .TeamCard {
+    background: #2F343D;
+    width: 27vw;
+    height: 33vw;
+    border: 0.2vw solid transparent;
+    margin-top: 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5vw;
+    padding: 1vw;
+  }
+
+
+  .CardImgOut {
+    width: 15vw;
+    height: 15vw;
+    position: relative;
+    /* margin-top: 1vw; */
+  }
+
+  .ImgBorder {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  .CardImgOut img {
+    width: 13.5vw;
+    height: 13.5vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  .TeamCard h1 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 2.1vw;
+    font-weight: bold;
+    margin-top: 2vw;
+  }
+
+  .TeamCard h2 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 1.2vw;
+    font-weight: normal;
+    margin-top: 1vw;
+  }
+
+  .TeamCard p {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 1.2vw;
+    font-weight: normal;
+    margin-top: 1vw;
+  }
+}

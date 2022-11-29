@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Caladea&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+a,
+button,
+select,
+HashLink {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.App {
+  text-align: center;
+  background: rgb(34, 40, 49);
+}
