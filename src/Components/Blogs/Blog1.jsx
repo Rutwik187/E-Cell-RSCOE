@@ -6,6 +6,7 @@ import start_up from "../../Images/Blogs/start_up.jpg";
 const Blog1 = () => {
   return (
     <div className="Blogs__page">
+      <p className=" publish_date">Published on: 3-Dec-2022</p>
       <h2 className="Blogs__title">What is Entrepreneurship?</h2>
       <div className="Blogs_img">
         <img src={start_up} alt="" />

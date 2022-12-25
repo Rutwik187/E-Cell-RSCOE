@@ -13,6 +13,13 @@
   width: 500px;
   margin: 50px auto;
 }
+.publish_date {
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 30px auto;
+}
 .Blogs__title {
   font-size: 60px;
   margin: 20px 0;
@@ -46,6 +53,9 @@
     display: flex;
     width: 80%;
     margin: 50px auto;
+  }
+  .publish_date {
+    font-size: 13px;
   }
   .Blogs__title {
     font-size: 22px;

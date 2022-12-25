@@ -11,20 +11,6 @@ export default function BlogsCards() {
     <>
       <div id="BlogsSlider">
         <div className="BlogsCard">
-
-          <div>
-            <img src={EcellImg} alt="E-Cell RSCOE" />
-            <h3>NETWORKING</h3>
-            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-          </div>
-          <div className="Blog__card-button">
-
-            <Link to="/Blog1">Read More</Link>
-          </div>
-          {/* <a href="#"></a> */}
-        </div>
-
-        <div className="BlogsCard">
           <div>
             <img src={EcellImg} alt="E-Cell RSCOE" />
             <h3>NETWORKING</h3>
@@ -39,7 +25,7 @@ export default function BlogsCards() {
             <h3>NETWORKING</h3>
             <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
           </div>
-          <Link to="/Blog1">Read More</Link>
+          <Link to="/Blog2">Read More</Link>
         </div>
 
         <div className="BlogsCard">
@@ -48,7 +34,16 @@ export default function BlogsCards() {
             <h3>NETWORKING</h3>
             <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
           </div>
-          <Link to="/Blog1">Read More</Link>
+          <Link to="/Blog3">Read More</Link>
+        </div>
+
+        <div className="BlogsCard">
+          <div>
+            <img src={EcellImg} alt="E-Cell RSCOE" />
+            <h3>NETWORKING</h3>
+            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+          </div>
+          <Link to="/Blog4">Read More</Link>
         </div>
 
 

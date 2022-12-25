@@ -6,54 +6,54 @@ import start_up from "../../Images/Blogs/start_up.jpg";
 const Blog3 = () => {
   return (
     <div className="Blogs__page">
-      <h2 className="Blogs__title">What is Entrepreneurship?</h2>
+      <p className=" publish_date">Published on: 17-Dec-2022</p>
+      <h2 className="Blogs__title">
+        Why the need for an entrepreneurship club?
+      </h2>
       <div className="Blogs_img">
         <img src={start_up} alt="" />
       </div>
       <p className="Blogs__content">
-        Entrepreneurship can be defined as the creation of something which adds
-        value to the economy. Entrepreneurship is viewed as change. A change
-        which adds to the rewards and the risks altogether. Entrepreneurship has
-        been viewed as setting up a business in recent terms to narrow down the
-        vast plethora of the term. It has been made easier to understand with
-        the following remark :
+        In the 21st century, development and innovation is the key for a
+        nation’s supremacy. We strive for a profitable economy to sustain and
+        stand out for personal as well as social benefits. Entrepreneurs help
+        develop an environment which instills the value of updating and
+        upgrading. Entrepreneurs generate employment, help the economy, solve
+        social and emassable problems and strive to make profits to live a
+        high-standard life.
       </p>
-      <p className="Blogs__quote">
-        “Entrepreneurship is the capacity and the willingness to develop,
-        organize and manage a business venture along with the risks to make a
-        substantial profit.”
-      </p>
-      <div className="Blogs_img">
-        <img src={enterprioner} alt="" />
-      </div>
-      <h3 className="Blogs__subTitle">What Is an Entrepreneur?</h3>
-
+      <br></br>
       <p className="Blogs__content">
-        An entrepreneur is seen as the visionary who runs one or multiple
-        businesses, which are shaped according to his/her vision. An
-        entrepreneur is seen as the entity who transforms an invention or a
-        technology into products and services which serve the masses and results
-        in a substantial profit for the economy. Entrepreneurs are seen as
-        innovators, sources of new ideas, and handlers of multiple businesses.
+        To help develop an entrepreneurial vision, it is necessary to inculcate
+        the values and attributes in students. It is important to educate
+        students about entrepreneurship to develop an intricate thinking among
+        the skillful youth in India. As the number of job seekers increase, a
+        definitive number of applicants remain unemployed or work at a much
+        lower position than they’re expected to.
       </p>
-      <p className="Blogs__quote">
-        “Entrepreneurs are hard-workers, innovators and developers who shape the
-        economy of their nation and contribute to a visionary mindset among the
-        masses.”
+      <br></br>
+      <p className="Blogs__content">
+        To avoid this dystopia, students should have an approach to develop
+        something of their own. This will ensure that they make a living off
+        their own innovation and never be put out of work. It will also mean,
+        these budding innovators wouldn’t have to work for anyone else rather
+        than themselves. This will result in constant motivation and
+        work-satisfaction.
       </p>
-      <h3 className="Blogs__subTitle">
-        An ideal entrepreneur always searches for the following :
-      </h3>
-      <ul className="Blogs__list">
-        <li>Inno-visionary approach</li>
-
-        <li>Creativity and redevelopment</li>
-
-        <li>
-          Sensibility and updatability for the modern world Optimism,
-          profitability and hardwork
-        </li>
-      </ul>
+      <br></br>
+      <p className="Blogs__content">
+        Entrepreneurs also ensure that they create employment, higher economical
+        drive and a dedicated and committed individual development. This overall
+        developmental approach has to be at the forefront of the student
+        community as it will strengthen the economy-driven perception an ideal
+        youth should possess. This includes the strengthening of ideations,
+        innovations and creations that are the driving forces of entrepreneurial
+        supremacy.
+      </p>
+      <br></br>
+      <p className="Blogs__content">
+        Some of the most famous entrepreneurship college clubs across India :
+      </p>
     </div>
   );
 };
