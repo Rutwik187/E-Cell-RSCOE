@@ -2,6 +2,7 @@ import React from 'react'
 import './BlogsCards.css'
 import EcellImg from '../../Images/Temp/EcellImg.jpg'
 import BtnArrow from '../../Images/Icons/BtnArrow.svg'
+import { Link } from 'react-router-dom'
 
 export default function BlogsCards() {
   let i = 0, sliderPosBlogs = 4;
@@ -15,7 +16,8 @@ export default function BlogsCards() {
             <h3>NETWORKING</h3>
             <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
           </div>
-          <a href="#">Read More</a>
+          <Link to="/Blog1">Read More</Link>
+          {/* <a href="#"></a> */}
         </div>
 
         <div className="BlogsCard">
@@ -91,22 +93,22 @@ export default function BlogsCards() {
     // console.log("sliderPosBlogs: ", sliderPosBlogs);
     try {
       let BlogsSlider = document.getElementById('BlogsSlider');
-      if ((((sliderImgSrcBlogs.length) % 3 == 1) || ((sliderImgSrcBlogs.length) % 3 == 2)) && (i === Math.floor((sliderImgSrcBlogs.length) / 3))) {
+      if ((((sliderImgSrcBlogs.length) % 3 === 1) || ((sliderImgSrcBlogs.length) % 3 === 2)) && (i === Math.floor((sliderImgSrcBlogs.length) / 3))) {
         i = 0;
         sliderPosBlogs = 4;
         BlogsSlider.style.left = sliderPosBlogs.toString() + 'vw';
       }
-      else if (((sliderImgSrcBlogs.length) % 3 == 0) && (i === Math.floor((sliderImgSrcBlogs.length) / 3) - 1)) {
+      else if (((sliderImgSrcBlogs.length) % 3 === 0) && (i === Math.floor((sliderImgSrcBlogs.length) / 3) - 1)) {
         i = 0;
         sliderPosBlogs = 4;
         BlogsSlider.style.left = sliderPosBlogs.toString() + 'vw';
       }
-      else if ((((sliderImgSrcBlogs.length) % 3 == 1) || ((sliderImgSrcBlogs.length) % 3 == 0)) && (i === Math.floor((sliderImgSrcBlogs.length) / 3) - 2 + (sliderImgSrcBlogs.length) % 3)) {
+      else if ((((sliderImgSrcBlogs.length) % 3 === 1) || ((sliderImgSrcBlogs.length) % 3 == 0)) && (i === Math.floor((sliderImgSrcBlogs.length) / 3) - 2 + (sliderImgSrcBlogs.length) % 3)) {
         i = i + 1;
-        if ((sliderImgSrcBlogs.length) % 3 == 0) {
+        if ((sliderImgSrcBlogs.length) % 3 === 0) {
           sliderPosBlogs = sliderPosBlogs - 75;
         }
-        else if ((sliderImgSrcBlogs.length) % 3 == 1) {
+        else if ((sliderImgSrcBlogs.length) % 3 === 1) {
           sliderPosBlogs = sliderPosBlogs - 25;
         }
         // else {
@@ -114,7 +116,7 @@ export default function BlogsCards() {
         // }
         BlogsSlider.style.left = sliderPosBlogs.toString() + 'vw';
       }
-      else if (((sliderImgSrcBlogs.length) % 3 == 2) && (i === Math.floor((sliderImgSrcBlogs.length) / 3) - 1)) {
+      else if (((sliderImgSrcBlogs.length) % 3 === 2) && (i === Math.floor((sliderImgSrcBlogs.length) / 3) - 1)) {
         i = i + 1;
         sliderPosBlogs = sliderPosBlogs - 50;
         BlogsSlider.style.left = sliderPosBlogs.toString() + 'vw';
@@ -134,12 +136,12 @@ export default function BlogsCards() {
     try {
       let BlogsSlider = document.getElementById('BlogsSlider');
       if (i === 0) {
-        if ((sliderImgSrcBlogs.length) % 3 == 1 || (sliderImgSrcBlogs.length) % 3 == 2) {
+        if ((sliderImgSrcBlogs.length) % 3 === 1 || (sliderImgSrcBlogs.length) % 3 === 2) {
           i = Math.floor((sliderImgSrcBlogs.length) / 3);
-          if ((sliderImgSrcBlogs.length) % 3 == 1) {
+          if ((sliderImgSrcBlogs.length) % 3 === 1) {
             sliderPosBlogs = ((Math.floor((sliderImgSrcBlogs.length) / 3) - 1) * -75) + 4 - 25;
           }
-          else if ((sliderImgSrcBlogs.length) % 3 == 2) {
+          else if ((sliderImgSrcBlogs.length) % 3 === 2) {
             sliderPosBlogs = ((Math.floor((sliderImgSrcBlogs.length) / 3) - 1) * -75) + 4 - 50;
           }
         }
@@ -156,9 +158,9 @@ export default function BlogsCards() {
         // }
         BlogsSlider.style.left = sliderPosBlogs.toString() + 'vw';
       }
-      else if ((((sliderImgSrcBlogs.length) % 3 == 1) || ((sliderImgSrcBlogs.length) % 3 == 2)) && i === Math.floor((sliderImgSrcBlogs.length) / 3)) {
+      else if ((((sliderImgSrcBlogs.length) % 3 === 1) || ((sliderImgSrcBlogs.length) % 3 === 2)) && i === Math.floor((sliderImgSrcBlogs.length) / 3)) {
         i = i - 1;
-        if ((sliderImgSrcBlogs.length) % 3 == 1) {
+        if ((sliderImgSrcBlogs.length) % 3 === 1) {
           sliderPosBlogs = sliderPosBlogs + 25;
         }
         else {

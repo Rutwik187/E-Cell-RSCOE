@@ -8,6 +8,7 @@ import BlueBubble from '../../Images/Backgrounds/BlueBubble.svg'
 import HumansImage from '../../Images/Backgrounds/HumansImage.png'
 import EllipseRingTop from '../../Images/Backgrounds/EllipseRingTop.svg'
 import EllipseRingBlog from '../../Images/Backgrounds/EllipseRingBlog.svg'
+import LogoSlider from './LogoSlider'
 
 export default function Home() {
   return (
@@ -71,13 +72,14 @@ export default function Home() {
           <h2 className='SectionHeading'>Sponsors</h2>
           <span className='WordUnderline'></span>
         </div>
-        <div className="SponsorsListOut">
+        {/* <div className="SponsorsListOut">
           <p className="Sponsors">Sponsors</p>
           <p className="Sponsors">Sponsors</p>
           <p className="Sponsors">Sponsors</p>
           <p className="Sponsors">Sponsors</p>
-        </div>
+        </div> */}
       </div>
+      <LogoSlider />
       <div className="OurBlogsOut">
         <img className='EllipseRingBlog' src={EllipseRingBlog} alt="E-Cell RSCOE" />
         <div className="OurBlogsBack">

@@ -9,6 +9,7 @@ import {
   Route,
   // Link
 } from "react-router-dom";
+import Blog1 from './Components/Blogs/Blog1';
 
 function App() {
   return (
@@ -18,8 +19,8 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/OurTeam" element={<OurTeam />} />
-          {/* <Route exact path="/Activities" element={<Activities />} />
-          <Route exact path="/AboutUS" element={<AboutUs />} /> */}
+          {/* {/* <Route exact path="/Activities" element={<Activities />} /> */}
+          <Route exact path="/Blog1" element={<Blog1 />} />
         </Routes>
         <Footer />
       </div>
