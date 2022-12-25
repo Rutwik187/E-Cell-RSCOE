@@ -5,18 +5,22 @@ import BtnArrow from '../../Images/Icons/BtnArrow.svg'
 import { Link } from 'react-router-dom'
 
 export default function BlogsCards() {
-  let i = 0, sliderPosBlogs = 4;
+  let i = 0, sliderPosBlogs = 1;
   let sliderImgSrcBlogs = [1, 2, 3, 4, 5, 6];
   return (
     <>
       <div id="BlogsSlider">
         <div className="BlogsCard">
+
           <div>
             <img src={EcellImg} alt="E-Cell RSCOE" />
             <h3>NETWORKING</h3>
             <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
           </div>
-          <Link to="/Blog1">Read More</Link>
+          <div className="Blog__card-button">
+
+            <Link to="/Blog1">Read More</Link>
+          </div>
           {/* <a href="#"></a> */}
         </div>
 
@@ -26,7 +30,7 @@ export default function BlogsCards() {
             <h3>NETWORKING</h3>
             <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
           </div>
-          <a href="#">Read More</a>
+          <Link to="/Blog1">Read More</Link>
         </div>
 
         <div className="BlogsCard">
@@ -35,7 +39,7 @@ export default function BlogsCards() {
             <h3>NETWORKING</h3>
             <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
           </div>
-          <a href="#">Read More</a>
+          <Link to="/Blog1">Read More</Link>
         </div>
 
         <div className="BlogsCard">
@@ -44,26 +48,12 @@ export default function BlogsCards() {
             <h3>NETWORKING</h3>
             <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
           </div>
-          <a href="#">Read More</a>
+          <Link to="/Blog1">Read More</Link>
         </div>
 
-        <div className="BlogsCard">
-          <div>
-            <img src={EcellImg} alt="E-Cell RSCOE" />
-            <h3>NETWORKING</h3>
-            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-          </div>
-          <a href="#">Read More</a>
-        </div>
 
-        <div className="BlogsCard">
-          <div>
-            <img src={EcellImg} alt="E-Cell RSCOE" />
-            <h3>NETWORKING</h3>
-            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-          </div>
-          <a href="#">Read More</a>
-        </div>
+
+
 
         {/* <div className="BlogsCard">
           <div>

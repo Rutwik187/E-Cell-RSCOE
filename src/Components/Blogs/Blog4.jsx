@@ -3,7 +3,7 @@ import "./Blogs.css";
 import enterprioner from "../../Images/Blogs/enterprioner.jpg";
 import start_up from "../../Images/Blogs/start_up.jpg";
 
-const Blog1 = () => {
+const Blog4 = () => {
   return (
     <div className="Blogs__page">
       <h2 className="Blogs__title">What is Entrepreneurship?</h2>
@@ -58,4 +58,4 @@ const Blog1 = () => {
   );
 };
 
-export default Blog1;
+export default Blog4;
