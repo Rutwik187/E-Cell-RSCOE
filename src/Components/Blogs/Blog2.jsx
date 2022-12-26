@@ -1,7 +1,7 @@
 import React from "react";
 import "./Blogs.css";
-import enterprioner from "../../Images/Blogs/enterprioner.jpg";
-import start_up from "../../Images/Blogs/start_up.jpg";
+import creativity from "../../Images/Blogs/creativity.jpg";
+import sustainibility from "../../Images/Blogs/adaptability quote.jfif";
 
 const Blog2 = () => {
   return (
@@ -9,7 +9,7 @@ const Blog2 = () => {
       <p className=" publish_date">Published on: 10-Dec-2022</p>
       <h2 className="Blogs__title">Inno-Vision & Creativity:</h2>
       <div className="Blogs_img">
-        <img src={start_up} alt="" />
+        <img src={creativity} alt="" />
       </div>
       <p className="Blogs__content">
         Inno-Vision is a word derived from the phrase “innovative visionary”.
@@ -23,9 +23,6 @@ const Blog2 = () => {
         result in profits and also solve a massive problem statement.
       </p>
 
-      <div className="Blogs_img">
-        <img src={enterprioner} alt="" />
-      </div>
       <h3 className="Blogs__subTitle">Inno-Vision requires the following :</h3>
       <ul className="Blogs__list">
         <li>Ideation</li>
@@ -74,6 +71,9 @@ const Blog2 = () => {
         for further development.
       </p>
       <br></br>
+      <div className="Blogs_img">
+        <img src={sustainibility} alt="" />
+      </div>
       <p className="Blogs__content">
         <strong>Adaptability </strong>
         is the ability of an entrepreneur to latch on to the state of modernity

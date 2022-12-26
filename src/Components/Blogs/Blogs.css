@@ -44,6 +44,13 @@
   font-size: 25px;
   margin: 30px 0;
 }
+.ecell_clubs_logos {
+  display: flex;
+  flex-wrap: wrap;
+}
+.ecell_club_logo {
+  margin: 30px;
+}
 
 @media only screen and (max-width: 768px) {
   .Blogs__page {
@@ -75,5 +82,11 @@
   .Blogs__list li {
     font-size: 13px;
     margin: 10px 0;
+  }
+  .ecell_club_logos {
+    margin: 20px;
+  }
+  .ecell_club_logo img {
+    width: 120px;
   }
 }

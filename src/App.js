@@ -14,13 +14,18 @@ import Blog1 from './Components/Blogs/Blog1';
 import Blog2 from './Components/Blogs/Blog2';
 import Blog3 from './Components/Blogs/Blog3';
 import Blog4 from './Components/Blogs/Blog4';
+import ScrollToTop from './ScrollToTop';
+
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="App">
+
         <Navbar />
         <Routes>
+          {/* <ScrollToTop /> */}
           <Route exact path="/" element={<Home />} />
           <Route exact path="/OurTeam" element={<OurTeam />} />
           {/* {/* <Route exact path="/Activities" element={<Activities />} /> */}

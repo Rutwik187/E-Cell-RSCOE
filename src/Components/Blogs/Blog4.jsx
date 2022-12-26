@@ -1,7 +1,6 @@
 import React from "react";
 import "./Blogs.css";
-import enterprioner from "../../Images/Blogs/enterprioner.jpg";
-import start_up from "../../Images/Blogs/start_up.jpg";
+import ecell_rscoe from "../../Images/Blogs/ecell_rscoe.png";
 
 const Blog4 = () => {
   return (
@@ -9,7 +8,7 @@ const Blog4 = () => {
       <p className=" publish_date">Published on: 24-Dec-2022</p>
       <h2 className="Blogs__title">ABOUT : Entrepreneurship Cell RSCOE</h2>
       <div className="Blogs_img">
-        <img src={start_up} alt="" />
+        <img src={ecell_rscoe} alt="" />
       </div>
       <p className="Blogs__content">
         <strong>E-Cell RSCOE</strong> is the club which was founded in the
@@ -25,9 +24,6 @@ const Blog4 = () => {
         terms of talent and innovation. We at E-Cell RSCOE aim to nurture the
         finest minds in RSCOE to achieve success and growth in every aspect.
       </p>
-      <div className="Blogs_img">
-        <img src={enterprioner} alt="" />
-      </div>
 
       <p className="Blogs__content">
         At E-Cell RSCOE, we conduct various activities such as conducting

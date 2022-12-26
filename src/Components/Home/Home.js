@@ -67,19 +67,14 @@ export default function Home() {
           <EventsCards />
         </div>
       </div>
-      <div className="SponsorsOut">
+      {/* <div className="SponsorsOut">
         <div className='SponsorsHeadingOut'>
           <h2 className='SectionHeading'>Sponsors</h2>
           <span className='WordUnderline'></span>
         </div>
-        {/* <div className="SponsorsListOut">
-          <p className="Sponsors">Sponsors</p>
-          <p className="Sponsors">Sponsors</p>
-          <p className="Sponsors">Sponsors</p>
-          <p className="Sponsors">Sponsors</p>
-        </div> */}
-      </div>
-      <LogoSlider />
+       
+      </div> */}
+      {/* <LogoSlider /> */}
       <div className="OurBlogsOut">
         <img className='EllipseRingBlog' src={EllipseRingBlog} alt="E-Cell RSCOE" />
         <div className="OurBlogsBack">

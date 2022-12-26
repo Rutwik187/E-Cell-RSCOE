@@ -1,7 +1,11 @@
 import React from "react";
 import "./Blogs.css";
-import enterprioner from "../../Images/Blogs/enterprioner.jpg";
-import start_up from "../../Images/Blogs/start_up.jpg";
+import start_up_img from "../../Images/Blogs/blog3_1.jpg";
+import iit_b from "../../Images/Blogs/ecell_iit_bombay.png";
+import iit_k from "../../Images/Blogs/ecell_iit_kanpur.png";
+import iit_m from "../../Images/Blogs/ecell_iit_madras.png";
+import nit_t from "../../Images/Blogs/ecell_nit_trichy.png";
+import vnit from "../../Images/Blogs/ecell_vnit.png";
 
 const Blog3 = () => {
   return (
@@ -11,7 +15,7 @@ const Blog3 = () => {
         Why the need for an entrepreneurship club?
       </h2>
       <div className="Blogs_img">
-        <img src={start_up} alt="" />
+        <img src={start_up_img} alt="" />
       </div>
       <p className="Blogs__content">
         In the 21st century, development and innovation is the key for a
@@ -54,6 +58,23 @@ const Blog3 = () => {
       <p className="Blogs__content">
         Some of the most famous entrepreneurship college clubs across India :
       </p>
+      <div className="ecell_clubs_logos">
+        <div className="ecell_club_logo">
+          <img src={iit_b} alt="" />
+        </div>
+        <div className="ecell_club_logo">
+          <img src={iit_k} alt="" />
+        </div>
+        <div className="ecell_club_logo">
+          <img src={iit_m} alt="" />
+        </div>
+        <div className="ecell_club_logo">
+          <img src={nit_t} alt="" />
+        </div>
+        <div className="ecell_club_logo">
+          <img src={vnit} alt="" />
+        </div>
+      </div>
     </div>
   );
 };

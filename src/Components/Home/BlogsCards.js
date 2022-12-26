@@ -3,6 +3,7 @@ import './BlogsCards.css'
 import EcellImg from '../../Images/Temp/EcellImg.jpg'
 import BtnArrow from '../../Images/Icons/BtnArrow.svg'
 import { Link } from 'react-router-dom'
+import start_up from "../../Images/Blogs/start_up.jpg"
 
 export default function BlogsCards() {
   let i = 0, sliderPosBlogs = 1;
@@ -10,41 +11,65 @@ export default function BlogsCards() {
   return (
     <>
       <div id="BlogsSlider">
-        <div className="BlogsCard">
-          <div>
-            <img src={EcellImg} alt="E-Cell RSCOE" />
-            <h3>NETWORKING</h3>
-            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+        <Link to="/Blog1">
+          <div className="BlogsCard">
+            <div className='BlogsCard_ecell_logo'>
+            </div>
+            <div>
+              <h3>What is Entrepreneurship?</h3>
+              <p>Entrepreneurship can be defined as the creation of something which adds
+                value to the economy...</p>
+            </div>
+            <div className="Blog_card_button">
+              <Link to="/Blog1">Read More</Link>
+            </div>
           </div>
-          <Link to="/Blog1">Read More</Link>
-        </div>
+        </Link>
 
-        <div className="BlogsCard">
-          <div>
-            <img src={EcellImg} alt="E-Cell RSCOE" />
-            <h3>NETWORKING</h3>
-            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+        <Link to="/Blog2">
+          <div className="BlogsCard">
+            <div className='BlogsCard_ecell_logo'>
+            </div>
+            <div>
+              <h3>Inno-Vision & Creativity</h3>
+              <p>Inno-Vision is a word derived from the phrase “innovative visionary”. Inno-Vision is an ...</p>
+            </div>
+            <div className="Blog_card_button">
+              <Link to="/Blog2">Read More</Link>
+            </div>
           </div>
-          <Link to="/Blog2">Read More</Link>
-        </div>
+        </Link>
 
-        <div className="BlogsCard">
-          <div>
-            <img src={EcellImg} alt="E-Cell RSCOE" />
-            <h3>NETWORKING</h3>
-            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+        <Link to="/Blog3">
+          <div className="BlogsCard">
+            <div className='BlogsCard_ecell_logo'>
+            </div>
+            <div>
+              <h3>Why the need for an entrepreneurship club?
+              </h3>
+              <p>In the 21st century, development and innovation is the key for a
+                nation’s supremacy. ...</p>
+            </div>
+            <div className="Blog_card_button">
+              <Link to="/Blog3">Read More</Link>
+            </div>
           </div>
-          <Link to="/Blog3">Read More</Link>
-        </div>
+        </Link>
 
-        <div className="BlogsCard">
-          <div>
-            <img src={EcellImg} alt="E-Cell RSCOE" />
-            <h3>NETWORKING</h3>
-            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+        <Link to="/Blog4">
+          <div className="BlogsCard">
+            <div className='BlogsCard_ecell_logo'>
+            </div>
+            <div>
+              <h3>ABOUT : Entrepreneurship Cell RSCOE</h3>
+              <p>E-Cell RSCOE is the club which was founded in the
+                precinct of JSPM’s Rajarshi Shahu...</p>
+            </div>
+            <div className="Blog_card_button">
+              <Link to="/Blog4">Read More</Link>
+            </div>
           </div>
-          <Link to="/Blog4">Read More</Link>
-        </div>
+        </Link>
 
 
 

@@ -20,7 +20,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
     border-radius: 0.6vw;
     margin: 0vw 1.5vw;
     /* box-shadow: 0.1vw 0vw 1vw rgba(0, 0, 0, 0.5); */
@@ -33,18 +33,25 @@
     align-items: center;
     flex-wrap: wrap;
     width: 19vw;
-    margin: 1.5vw auto 0.5vw auto;
+    /* margin: 1.5vw auto 0.5vw auto; */
     /* border: 1px solid red; */
   }
 
-  .BlogsCard div img {
+  .BlogsCard_ecell_logo img {
     width: 4vw;
+  }
+
+  .Blogs_card_img img {
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
   }
 
   .BlogsCard div h3 {
     /* border: 1px solid yellow; */
     font-family: "Hind Vadodara";
     font-size: 1.2vw;
+    text-align: start;
   }
 
   .BlogsCard div p {
@@ -147,8 +154,10 @@
     margin-top: 0.5vw;
     text-align: justify;
   }
-
-  .BlogsCard a {
+  a {
+    text-decoration: none;
+  }
+  .BlogsCard .Blog_card_button {
     color: black;
     /* position: absolute;
     bottom: 1vw;
@@ -163,7 +172,7 @@
     transition: 0.2s;
   }
 
-  .BlogsCard a:hover {
+  .BlogsCard .Blog_card_button:hover {
     background: black;
     color: white;
   }
