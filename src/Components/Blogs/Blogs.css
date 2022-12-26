@@ -10,7 +10,7 @@
 }
 .Blogs_img img {
   display: flex;
-  width: 500px;
+  width: 400px;
   margin: 50px auto;
 }
 .publish_date {
@@ -21,7 +21,7 @@
   margin: 30px auto;
 }
 .Blogs__title {
-  font-size: 60px;
+  font-size: 50px;
   margin: 20px 0;
 }
 .Blogs__subTitle {
@@ -29,7 +29,7 @@
   margin: 100px 0 20px 0;
 }
 .Blogs__content {
-  font-size: 25px;
+  font-size: 20px;
   margin: 10px 0;
 }
 .Blogs__quote {
